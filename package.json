@@ -1,7 +1,7 @@
 {
-  "name": "Multilanguage landing",
+  "name": "multilanguage_landing",
   "version": "1.0.0",
-  "description": "Multilanguage landing",
+  "description": "multilanguage landing",
   "main": "",
   "scripts": {
     "start": "gulp",
