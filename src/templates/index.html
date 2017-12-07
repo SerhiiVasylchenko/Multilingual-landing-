@@ -1,0 +1,29 @@
+---
+title: Index page
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+
+<!-- Header -->
+<header>
+    Header
+    <div class="lang_switcher">
+        <a class="active" href="/">RU</a>
+        <span> | </span>
+        <a class="en" href="/en">EN</a>
+    </div>
+
+</header><!-- /Header -->
+
+<section class="main">
+    {{content}}
+</section>
+
+<!-- Footer -->
+<footer>
+    Footer
+</footer><!-- /Footer -->
+
+
+{% endblock %}

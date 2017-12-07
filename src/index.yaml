@@ -1,0 +1,5 @@
+ProjectTitle: Gulp test
+
+PageList:
+- file: index.html
+  ready: 50

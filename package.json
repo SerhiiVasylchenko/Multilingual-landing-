@@ -1,0 +1,25 @@
+{
+  "name": "Multilanguage landing",
+  "version": "1.0.0",
+  "description": "Multilanguage landing",
+  "main": "",
+  "scripts": {
+    "start": "gulp",
+    "test": "test"
+  },
+  "author": "Serhii Vasylchenko <sergiyvasylchenko@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-data": "^1.2.1",
+    "gulp-front-matter": "^1.3.0",
+    "gulp-less": "^3.3.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nunjucks": "^3.0.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-watch": "^4.3.11",
+    "rimraf": "^2.5.4"
+  }
+}

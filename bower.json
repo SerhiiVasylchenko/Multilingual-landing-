@@ -1,0 +1,21 @@
+{
+  "name": "Multilanguage landing",
+  "authors": [
+    "Serhii Vasylchenko <sergiyvasylchenko@gmail.com>"
+  ],
+  "description": "Multilanguage landing",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "public",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

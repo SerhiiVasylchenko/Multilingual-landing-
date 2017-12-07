@@ -1,0 +1,87 @@
+@import "fonts";
+@import "mixins";
+
+/* VARIABLES */
+
+@white: #ffffff;
+
+
+/* RESET */
+
+*,
+a:hover, button:hover,
+a:visited, button:visited,
+a:active, button:active,
+a:focus, button:focus
+{
+  outline: none;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrap {
+  overflow: hidden;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+body {
+  color: #000;
+}
+
+
+
+header {
+  .lang_switcher {
+    a, span {
+      margin: 0 2px;
+      text-transform: uppercase;
+      &.active {
+        font-weight: 500;
+        color: green;
+      }
+    }
+  }
+}
+
+
+
+footer {}
+
+
+
+/*==================================================
+=                    Media Queries                 =
+==================================================*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 575px) {
+
+}
